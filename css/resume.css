@@ -5,12 +5,11 @@ ul, h1, h2, h3, p, hr, body, main, header, footer, img, div, span{
 body{
 	background-color: #f2f2f3;
 	font-family: 'Montserrat', sans-serif;
-	margin:0px;
 }
 header{
 	background-color: #cacbce;
 	text-align: center;
-	padding: 30px 0;
+	padding: 20px 0;
 }
 header img{
 	margin: 0px; 
@@ -24,13 +23,10 @@ header h1, header h3 {
 }
 main{
 	color:#75788a;
-	padding: 20px 30px;
+	padding: 20px 20px;
 }
-h1 {
+main h2, main h3{
 	padding: 10px 0px 0px 0px;
-}
-main h2, main h3 {
-	padding: 10px 0px;
 }
 h1 {
 	color:#464853;
@@ -62,8 +58,26 @@ hr{
 footer{
 	text-align: center;
 	padding: 0px 0px;
-	background-color: #596e79;
+	background-color: #cacbce;
+}
+.pad-top{
+	padding-top: 10px
 }
 .section{
 	padding-bottom: 25px;
+}
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 0.9em;
+	}
+}
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 0.7em;
+	}
+}
+@media screen and (max-width: 400px) {
+	body {
+		font-size: 0.5em;
+	}
 }
